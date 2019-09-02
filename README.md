@@ -1,6 +1,6 @@
 ## Implementando el algoritmo Depth-First Search
 
-
+```
 funcion dopth()
 {
 queue=[];
@@ -15,3 +15,4 @@ the report FAILURE;
 state=queue[0];
 remove_first_item_from(queue);
 }}
+```
