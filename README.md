@@ -32,3 +32,6 @@ state=queue[0];
 remove_first_item_from(queue);
 }}
 ```
+
+
+## Prolog
