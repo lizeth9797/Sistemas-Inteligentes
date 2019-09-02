@@ -1,5 +1,4 @@
-# chatbot
-IS Class
+## Implementando el algoritmo Depth-First Search
 
 
 funcion dopth()
