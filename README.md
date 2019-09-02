@@ -14,3 +14,21 @@ state=queue[0];
 remove_first_item_from(queue);
 }}
 ```
+
+
+## Implementando el algoritmo Breadth-First Search
+
+```
+funcion dopth(){
+queue=[];
+state=root_node;
+while (true){
+if is_goal(state)
+then return SUCCESS
+else add_to_the_back_of_queue(SUCCESSORS (state));
+if queue==[]
+then report FAILURE;
+state=queue[0];
+remove_first_item_from(queue);
+}}
+```
