@@ -34,4 +34,26 @@ remove_first_item_from(queue);
 ```
 
 
-## Prolog
+## Algoritmo Hill Climbing
+
+```
+function hill(){
+queue=[];
+state=root_node;
+while(true){
+if is_goal(state){
+then return success }
+else{
+sort(successors(state));
+add_to_front_of_queue(successors(state));   }
+
+if queue==[]{
+then return failure }
+state=queue[0];
+remove_first_item_from(queue);
+
+```
+
+
+
+
