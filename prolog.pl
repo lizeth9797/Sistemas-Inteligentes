@@ -1,4 +1,3 @@
-```
 legusta(maria,cerveza).
 legusta(maria,vino).
 legusta(maria,rock).
@@ -6,7 +5,7 @@ legusta(maria,juan).
 legusta(juan,vino).
 legusta(juan,baila).
 legusta(juan,rock).
-```
+
 % ?-legusta(maria,rock). 
 % ?-legusta(maria,hiphop). 
 %    &&  AND 
@@ -54,8 +53,8 @@ estia(K,X,Y,Z):-esmujer(K),hermana(K,marge),eshijo(X,homero,marge),eshijo(Y,home
 % ?-eshombre(bart)=X
 
 
-%Estructuras
 
+%Estructuras
 tieneun(maria,libro).
 tieneun(maria,libro(las_batallas_desierto,jose_e_pacheco)).
 tieneun(maria,libro(las_batallas_desierto,autor(jose_e_pacheco))).
