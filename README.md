@@ -51,6 +51,7 @@ if queue==[]{
 then return failure }
 state=queue[0];
 remove_first_item_from(queue);
+}
 
 ```
 
