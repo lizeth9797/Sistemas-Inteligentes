@@ -4,3 +4,16 @@ Encadenamiento hacia adelante (forward chaining)
 
 Data Driven Search
 Encadenamiento hacia atras backguard chainig
+
+
+
+COMPLEJIDAD
+* Temporal
+*Espacial
+
+
+Un método de búsqueda es descrito como completo. Si este garantiza encontrar una meta si esta existe
+
+Óptimo: que nos devuelve la mejor solución
+
+
