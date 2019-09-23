@@ -78,7 +78,7 @@ remove_first_item_from(queue);
 ```
 
 ## Algoritmo Beam Search
-### Problema: Existen muchos. El factor de bifurcación del arbol que se genera es muy grande como en el caso del ajedrez o Go
+#### Problema: Existen muchos. El factor de bifurcación del arbol que se genera es muy grande como en el caso del ajedrez o Go. La busqueda ya NO será completa. Algoritmos no deterministicos
 ```
 funcion dopth(){
 queue=[];
@@ -96,3 +96,24 @@ remove_first_item_from(queue);
 }//fin del while
 } //fin del programa
 ```
+
+
+## Algoritmo Random Search
+#### Agrega de manera aleatoria los sucesores de cada estado
+```
+funcion dopth(){
+queue=[];
+state=root_node;
+while (true){
+if is_goal(state)
+then return SUCCESS
+else {
+add_randomly_to_queue(SUCCESSORS (successor(state));}
+if queue==[]
+then report FAILURE;
+state=queue[0];
+remove_first_item_from(queue);
+}//fin del while
+} //fin del programa
+```
+
