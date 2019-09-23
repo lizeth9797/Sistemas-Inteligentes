@@ -76,3 +76,23 @@ remove_first_item_from(queue);
 }//fin del while
 } //fin del programa
 ```
+
+## Algoritmo Beam Search
+### Problema: Existen muchos. El factor de bifurcación del arbol que se genera es muy grande como en el caso del ajedrez o Go
+```
+funcion dopth(){
+queue=[];
+state=root_node;
+while (true){
+if is_goal(state)
+then return SUCCESS
+else {
+add_to_front_of_queue(SUCCESSORS (state));
+select_best_paths(queue,n);}
+if queue==[]
+then report FAILURE;
+state=queue[0];
+remove_first_item_from(queue);
+}//fin del while
+} //fin del programa
+```
