@@ -78,7 +78,7 @@ remove_first_item_from(queue);
 ```
 
 ## Algoritmo Beam Search
-#### Problema: Existen muchos. El factor de bifurcación del arbol que se genera es muy grande como en el caso del ajedrez o Go. La busqueda ya NO será completa. Algoritmos no deterministicos
+#### Problema: Existen muchos. El factor de bifurcación del arbol que se genera es muy grande como en el caso del ajedrez o Go. La busqueda ya NO será completa. Algoritmos no deterministicos. La solución son los Algoritmos Genéticos->Aprendizaje
 ```
 funcion dopth(){
 queue=[];
