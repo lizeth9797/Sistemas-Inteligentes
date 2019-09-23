@@ -101,3 +101,5 @@ densidad(X,D):-poblacion(X,P),area(X,A),D is P/A.
 
 %?-densidad(mexico,X)
 %?-densidad(P,X)
+
+%Ejercicio: Calcular el impuesto de un producto 
