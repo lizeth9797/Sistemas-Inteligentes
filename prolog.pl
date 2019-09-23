@@ -61,3 +61,43 @@ tieneun(maria,libro(las_batallas_desierto,autor(jose_e_pacheco))).
 
 %tieneun(maria,X)
 
+%Elementos de coomparación
+?-maneja(juan,coche)=maneja(juan,x)
+?-maneja(juan,Y)=maneja(juan,X)
+?-a(B,c,d(e,F,g(h,i,J)))=a(b,C,d(E,f,g(H,i,j))).
+%Salida:
+B = b,
+C = c,
+E = e,
+F = f,
+H = h,
+J = j
+
+
+
+gob(salinas,1988,1994).
+gob(zedillo,1994,2000).
+gob(fox,2000,2006).
+gob(calderon,2006,2012).
+gob(pena,2016,2018).
+presidente(X,T):-gob(X,A,B),T>=A,T=<B.
+
+%?-presidente(salinas,1989)
+%%?-presidente(fox,2000)
+%?-presidente(Alguien,2000)
+%?-presidente(Alguien,Tiempo)
+
+
+poblacion(china,1300).
+poblacion(eeuu,350).
+poblacion(mexico,135).
+poblacion(brasil,200).
+area(china,9).
+area(brasil,8).
+area(mexico,2).
+area(eeuu,9).
+densidad(X,D):-poblacion(X,P),area(X,A),D is P/A.
+
+
+%?-densidad(mexico,X)
+%?-densidad(P,X)
