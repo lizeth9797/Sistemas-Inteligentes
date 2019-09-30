@@ -103,3 +103,17 @@ densidad(X,D):-poblacion(X,P),area(X,A),D is P/A.
 %?-densidad(P,X)
 
 %Ejercicio: Calcular el impuesto de un producto 
+
+
+
+
+% DICCIONARIO
+cambio(you,tu).
+cambio(are,eres).
+cambio(a,una).
+cambio(computer,computadora).
+cambio(X,X). %cuando no hay nada en la base de conocimientos esta sentencia nos permite 
+alterar([],[]). %nos permite terminar nuestra recursividad
+alterar([A|B],[C|R]):-cambio(A,C),alterar(B,R).
+
+% ?-alterar([you,are,a,computer],X).
