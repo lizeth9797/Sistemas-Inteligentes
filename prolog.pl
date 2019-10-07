@@ -152,3 +152,16 @@ prestamo_vencido('E. Loza',id_book03).
 
 
 
+suma(1,1):-!.
+suma(N,Res):-N1 is N-1, suma(N1,Res1), Res is Res1+N.
+
+%?-suma(2,Res)
+%Respuesta=3
+
+%?-suma(6,Res)
+%Respiesta=21
+
+
+
+
+
