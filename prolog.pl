@@ -121,7 +121,6 @@ alterar([A|B],[C|R]):-cambio(A,C),alterar(B,R).
 
 
 
-
 mujer(maria).
 mujer(fiona).
 mujer(sonia).
@@ -131,6 +130,25 @@ hombre(genaro).
 %pareja_baile(X,Y):-mujer(X),hombre(Y).
 pareja_baile(X,Y):-mujer(X),!,hombre(Y).
 %El simbolo ! esta forzando a hacer un corte/barrera, ya no podrá regresar o volver a instanciar el valor de X
-
-
 %  ?-pareja_baile(A,B)
+
+
+
+
+prestaciones(Clie,Pres):-prestaciones_vencido(Clie,Libro,!,prestaciones_basicas(Pres)).
+prestaciones(Clie,Pres):-prestaciones_generales(Pres).                                              
+prestaciones_basicas(referencias).
+prestaciones_basicas(consultas).
+prestaciones_adicionales(prestamo).
+prestaciones_adicionales(prestamo_bibliotecario).
+prestaciones_generales(X):-prestaciones_basicas(X).
+prestaciones_generales(X):-prestaciones_adicionales(X).
+cliente('E. Loza').
+cliente('A. Diaz').
+prestamo_vencido('A Diaz',id_book01).
+prestamo_vencido('E. Loza',id_book02).
+prestamo_vencido('E. Loza',id_book03).
+%cliente(X),prestaciones(X,Pres)
+
+
+
