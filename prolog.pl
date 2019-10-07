@@ -117,3 +117,20 @@ alterar([],[]). %nos permite terminar nuestra recursividad
 alterar([A|B],[C|R]):-cambio(A,C),alterar(B,R).
 
 % ?-alterar([you,are,a,computer],X).
+
+
+
+
+
+mujer(maria).
+mujer(fiona).
+mujer(sonia).
+hombre(juan).
+hombre(alberto).
+hombre(genaro).
+%pareja_baile(X,Y):-mujer(X),hombre(Y).
+pareja_baile(X,Y):-mujer(X),!,hombre(Y).
+%El simbolo ! esta forzando a hacer un corte/barrera, ya no podrá regresar o volver a instanciar el valor de X
+
+
+%  ?-pareja_baile(A,B)
