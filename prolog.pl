@@ -168,4 +168,6 @@ cuando(Ev):-read(An),evento(An,Ev).
 %?-cuando(Ev).
 
 
-
+imprimir(H):-write(hola),nl,write(H).
+%?-imprimir(adios)
+%dirá: hola      adios
