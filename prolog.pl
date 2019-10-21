@@ -171,3 +171,11 @@ cuando(Ev):-read(An),evento(An,Ev).
 imprimir(H):-write(hola),nl,write(H).
 %?-imprimir(adios)
 %dirá: hola      adios
+
+
+
+saludo:-write('hola').
+despedida:-write('adios').
+espacios(0):-!.
+espacios(N):-write('_'),N1 is N-1, espacios(N1).
+%?-saludo,espacios(4),despedida.
