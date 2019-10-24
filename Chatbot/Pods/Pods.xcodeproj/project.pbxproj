@@ -14,11 +14,11 @@
 		0D6D438CF9B1DEC1A8BF8CBA523E511B /* AIRecordDetector.h in Headers */ = {isa = PBXBuildFile; fileRef = 906300553AB7EFFC8CEB0150DD0BB667 /* AIRecordDetector.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		0FCBF0985046E55FF38608517E816A12 /* AIAudioFileConvertOperationTypes.h in Headers */ = {isa = PBXBuildFile; fileRef = BBB722DEC1FE28E6B54E4BBE3AB946B3 /* AIAudioFileConvertOperationTypes.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		1590EB3A6B2A16B6BAD5108C812B9FF6 /* AIVoiceRequestButton.h in Headers */ = {isa = PBXBuildFile; fileRef = E129BC883EE232F5BACB6C348584A905 /* AIVoiceRequestButton.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		18E164D8CDFD970E34E788BF3FECA326 /* Pods-Chip- Hotel Booking Chatbot-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = CD5DCFB4C8136913B2DA110FFFAC6DA4 /* Pods-Chip- Hotel Booking Chatbot-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		19467F388205689C29E85ADF1B691052 /* AIVoiceRequestButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 202EFD647BF2BF9A3B903B5EB0A3CEE4 /* AIVoiceRequestButton.m */; };
 		1D581E01FFE49F3F73A3FA7E215DE71A /* AIVoiceFileRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = B7108FADC70A849E2CE9E988497FB83F /* AIVoiceFileRequest.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		1FBC3D3EE56B5033C119292CAAAE33E1 /* AIRequestContext.m in Sources */ = {isa = PBXBuildFile; fileRef = B5F53224CA591057CB53CBC0B46A126A /* AIRequestContext.m */; };
 		219DD4AC286AF4EEB014EF44AA39BDE0 /* EnergyAndZeroCross.m in Sources */ = {isa = PBXBuildFile; fileRef = 21125D8046CA7EBADCCBAD8904631341 /* EnergyAndZeroCross.m */; };
+		227E30F113FD8986B05D3B0A44F14C32 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4AB6F2C3E09443C3C9ED9BB3970CEA1B /* Foundation.framework */; };
 		2387CA7C3D10AD48433AB00A875BE3CA /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0D947A5F44FBFEDBC123EB5EEB47C60C /* AVFoundation.framework */; };
 		245743236EA8A3511AB28D92D80114C3 /* AIVoiceRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DF193025DCF27AABBC59B9D878AD7A9 /* AIVoiceRequest.m */; };
 		267FA77BCBC6A74F2C92516E00194D60 /* AIRequestEntity_Private.h in Headers */ = {isa = PBXBuildFile; fileRef = E9048096346CCDCFE765254E55EB44CA /* AIRequestEntity_Private.h */; settings = {ATTRIBUTES = (Project, ); }; };
@@ -33,7 +33,6 @@
 		31624B421FE74F71151D968403B38E63 /* AIUserEntity_Private.h in Headers */ = {isa = PBXBuildFile; fileRef = 3C68C0E1A1D9752AB5030D5529DF59BA /* AIUserEntity_Private.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		324B258B537562A6D726E98BA01730D5 /* AIRequestEntry.m in Sources */ = {isa = PBXBuildFile; fileRef = E27EF1916D7EC057BCC35523458D22D2 /* AIRequestEntry.m */; };
 		33C7016DDF4ED3C6688C37F79024BEFB /* AIRequestEntity.h in Headers */ = {isa = PBXBuildFile; fileRef = B208842D68B05746CBCC0F0571EE4278 /* AIRequestEntity.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		354A9BB8EE0B667F717BDB9DA7B0BDB6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4AB6F2C3E09443C3C9ED9BB3970CEA1B /* Foundation.framework */; };
 		38C494D8F6D077F56612DC2C98F8C7BA /* AIResponseParameterConstants.h in Headers */ = {isa = PBXBuildFile; fileRef = 185AD14238A57B1581BEB72FAE60A4B1 /* AIResponseParameterConstants.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		397A402F011B540D49399DDA74603DDF /* AITextRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = 4FD832937D99D1E30CD61CB2F38A4FE1 /* AITextRequest.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		3C7F7A79AB997372F86BAB30AEFC06D1 /* AIResponseContext_Private.h in Headers */ = {isa = PBXBuildFile; fileRef = 8B683D8731AC0CBB475011E27105BBEB /* AIResponseContext_Private.h */; settings = {ATTRIBUTES = (Project, ); }; };
@@ -66,6 +65,7 @@
 		78D8055EACC3DCC8A7978CB77EB5B7E0 /* ApiAI.h in Headers */ = {isa = PBXBuildFile; fileRef = D1854004057DB6AFC739D5455A697DFB /* ApiAI.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		7BA95FF50AB211305BC860EC070F6E48 /* AIAlgorithmDetector.m in Sources */ = {isa = PBXBuildFile; fileRef = 7873003AF4BA976F39ED9756A46E6C1F /* AIAlgorithmDetector.m */; };
 		7BAB68808D844623D731B113705F59BB /* AIResponseParameterConstants.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CD643281DFB5F306DE2ED5335605B46 /* AIResponseParameterConstants.m */; };
+		7DCC097A85E065E8D943D9E2F960FD2A /* Pods-FesAcatlan-Chatbot-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 25AB7B6727455522849A6278205B4BF6 /* Pods-FesAcatlan-Chatbot-dummy.m */; };
 		7EECA6F650CD14C0A2F14A35962FE7C4 /* AIStreamBuffer.m in Sources */ = {isa = PBXBuildFile; fileRef = AB735BEFCCE2D930B88AE8D1DE6895DA /* AIStreamBuffer.m */; };
 		81C3D2BD99FA48C5E3DCA7E316785F9A /* AIResponseFulfillment.m in Sources */ = {isa = PBXBuildFile; fileRef = 151564C652AF659CC90E92F4A926DDB5 /* AIResponseFulfillment.m */; };
 		84FADF3A8938DF4B6C660BDA9821221E /* AICubeIconImage@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 953407F93C10F57B470AC5D0C7F3994E /* AICubeIconImage@2x.png */; };
@@ -107,12 +107,12 @@
 		C4759CB0C5DB3B689107E09323B2FFA0 /* AIRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 9669DC8F068D304F85CEAF784057E9E7 /* AIRequest.m */; };
 		C4E11CAC0FC0D09C8267CEEA446808FD /* AIStreamBuffer.h in Headers */ = {isa = PBXBuildFile; fileRef = 59E09B5C5076A15730A5EA844CC9EA5F /* AIStreamBuffer.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		C50AA63D0729C2FEC0C31F81FD64FDDA /* AISessionIdentifierStorage.h in Headers */ = {isa = PBXBuildFile; fileRef = 75E1E4E72D7223C8C4391DB1473C4E9E /* AISessionIdentifierStorage.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		CDD162B4E1222B161DC575F4F1E76C64 /* Pods-Chip- Hotel Booking Chatbot-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D930DB6FFF4FBF46900DA24FFBCF862F /* Pods-Chip- Hotel Booking Chatbot-dummy.m */; };
 		CEB7603378132A39C11DF4B3347DD9D8 /* AIQueryRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = 005BCD07D0539A9C31E41146DDA78739 /* AIQueryRequest.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		CF2692032718C781F62B8DE5E6F131AE /* AIVoiceRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = 9BBD993EA6DFA01BFE3F13A93070ADDD /* AIVoiceRequest.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D03FB68F42EA0A3924FD5FF5879EF9CC /* AIRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = 2D0C87B42F01BD3FCDE0ADA9D26CCB21 /* AIRequest.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D0787BC281F02000EC1324237EEE08ED /* AISessionIdentifierStorage.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F6363F29A3D01FD7561ABE56F620082 /* AISessionIdentifierStorage.m */; };
 		D17CE2AB9DA8587C008977587BA907FF /* AIEllipseView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9399DD5E717A3CEBAE37A4B409EB96AC /* AIEllipseView.m */; };
+		D2EF28BCFB4A2E9B1D11B3ED724F0180 /* Pods-FesAcatlan-Chatbot-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1CF3E81B459DB2E793EB29F961102EF8 /* Pods-FesAcatlan-Chatbot-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D78553C152009FF34FC1880ED6764E9B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4AB6F2C3E09443C3C9ED9BB3970CEA1B /* Foundation.framework */; };
 		D9BB53CD6C0685C8305A7B959EFE6EC5 /* AIUserEntity.h in Headers */ = {isa = PBXBuildFile; fileRef = AD0DEFE6E3BBBAACC4019DC68BAF4AA3 /* AIUserEntity.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		DB60AA35B7CC94C5A67F3323CC504AED /* AIEvent.h in Headers */ = {isa = PBXBuildFile; fileRef = 3C604A8B111116E31B90BDF34EAF9A18 /* AIEvent.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -139,7 +139,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		755C8E603C1AFB72E5D6CB7AC0C8CA00 /* PBXContainerItemProxy */ = {
+		2BD98A67733499D3B68EAC789DB36644 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
@@ -162,9 +162,11 @@
 		191B381DB36645AC54BBB45C14CB9010 /* AIMicrophoneControlImage@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "AIMicrophoneControlImage@2x.png"; path = "ApiAI/UIKit/Images/AIMicrophoneControlImage@2x.png"; sourceTree = "<group>"; };
 		19C47E270B65066998846996A897039D /* AIVoiceContainerView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AIVoiceContainerView.h; path = ApiAI/UIKit/Private/AIVoiceContainerView.h; sourceTree = "<group>"; };
 		1A9B0E9D64C40412F2A5B4969981729F /* AIVoiceFileRequest_Private.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AIVoiceFileRequest_Private.h; path = ApiAI/VoiceFileRequest/Private/AIVoiceFileRequest_Private.h; sourceTree = "<group>"; };
+		1CF3E81B459DB2E793EB29F961102EF8 /* Pods-FesAcatlan-Chatbot-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-FesAcatlan-Chatbot-umbrella.h"; sourceTree = "<group>"; };
 		2009887117F09EB564A2FF14D517A722 /* AIVoiceLevelView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AIVoiceLevelView.m; path = ApiAI/UIKit/Private/AIVoiceLevelView.m; sourceTree = "<group>"; };
 		202EFD647BF2BF9A3B903B5EB0A3CEE4 /* AIVoiceRequestButton.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AIVoiceRequestButton.m; path = ApiAI/UIKit/Classes/AIVoiceRequestButton.m; sourceTree = "<group>"; };
 		21125D8046CA7EBADCCBAD8904631341 /* EnergyAndZeroCross.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = EnergyAndZeroCross.m; path = ApiAI/VoiceRequest/Private/AlgorithmDetector/Algorithms/EnergyAndZeroCross/EnergyAndZeroCross.m; sourceTree = "<group>"; };
+		25AB7B6727455522849A6278205B4BF6 /* Pods-FesAcatlan-Chatbot-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-FesAcatlan-Chatbot-dummy.m"; sourceTree = "<group>"; };
 		281727790050C377099CA2B8511B2EB5 /* AIResponseStatus.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AIResponseStatus.h; path = ApiAI/Response/Classes/AIResponseStatus.h; sourceTree = "<group>"; };
 		28F9BE7E2C455611AC0D3F044A1EA071 /* ApiAI-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ApiAI-dummy.m"; sourceTree = "<group>"; };
 		2B4DDA97EDDED9D211627C54EDB6F307 /* AICubeIconImage@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "AICubeIconImage@3x.png"; path = "ApiAI/UIKit/Images/AICubeIconImage@3x.png"; sourceTree = "<group>"; };
@@ -173,6 +175,7 @@
 		30AC5DBE9743FD8DF37B992A268603A9 /* AIUserEntitiesRequest.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AIUserEntitiesRequest.m; path = ApiAI/UserEntities/Classes/AIUserEntitiesRequest.m; sourceTree = "<group>"; };
 		32B933BC58CE045A150A44F8A3305EA2 /* ApiAI-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ApiAI-umbrella.h"; sourceTree = "<group>"; };
 		348D5BC5C15E51DAC9E438CF63BBBC04 /* AIConfiguration.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AIConfiguration.h; path = ApiAI/Classes/AIConfiguration.h; sourceTree = "<group>"; };
+		363ADECE9BF53F4B12B04156885CA4F8 /* Pods-FesAcatlan-Chatbot-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FesAcatlan-Chatbot-acknowledgements.plist"; sourceTree = "<group>"; };
 		38772CDA072DD6387736D2F2A61D8980 /* AIQueryRequest+Private.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "AIQueryRequest+Private.m"; path = "ApiAI/Private/AIQueryRequest+Private.m"; sourceTree = "<group>"; };
 		38925B6BBC7E9E7ED8A0B9619325B063 /* AIAlgorithmDetectorDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AIAlgorithmDetectorDelegate.h; path = ApiAI/VoiceRequest/Private/AlgorithmDetector/AIAlgorithmDetectorDelegate.h; sourceTree = "<group>"; };
 		39FD7D19EC508DFE4C4EE03BF631B707 /* EnergyAndZeroCross.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = EnergyAndZeroCross.h; path = ApiAI/VoiceRequest/Private/AlgorithmDetector/Algorithms/EnergyAndZeroCross/EnergyAndZeroCross.h; sourceTree = "<group>"; };
@@ -182,8 +185,6 @@
 		3C76CA9168DAD329D32651EB6FCDFF03 /* ApiAI.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = ApiAI.modulemap; sourceTree = "<group>"; };
 		3ECAB1EFF85EED189BB7016C777D5174 /* AIDefaultConfiguration.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AIDefaultConfiguration.m; path = ApiAI/Classes/AIDefaultConfiguration.m; sourceTree = "<group>"; };
 		4059ABA3DF12C32E78E211A38F242608 /* AIEventRequest.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AIEventRequest.m; path = ApiAI/EventRequest/AIEventRequest.m; sourceTree = "<group>"; };
-		406CFF77AE2F60B2F969569612CE27DB /* Pods_Chip__Hotel_Booking_Chatbot.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Chip__Hotel_Booking_Chatbot.framework; path = "Pods-Chip- Hotel Booking Chatbot.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		420D80C18AE761C6603776142E630375 /* Pods-Chip- Hotel Booking Chatbot.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Chip- Hotel Booking Chatbot.debug.xcconfig"; sourceTree = "<group>"; };
 		4A68205714D4333C0FF8B086F01EC482 /* AIResponseFulfillment.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AIResponseFulfillment.h; path = ApiAI/Response/Classes/AIResponseFulfillment.h; sourceTree = "<group>"; };
 		4AB6F2C3E09443C3C9ED9BB3970CEA1B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		4C5C092ADA995371B06669F84D2495AF /* AIResponseFulfillment_Private.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AIResponseFulfillment_Private.h; path = ApiAI/Response/Private/AIResponseFulfillment_Private.h; sourceTree = "<group>"; };
@@ -192,8 +193,8 @@
 		508143B20C7C7627092B1E98420E9BC6 /* AIVoiceRequestButton.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = AIVoiceRequestButton.xib; path = ApiAI/UIKit/Classes/AIVoiceRequestButton.xib; sourceTree = "<group>"; };
 		50C9C415654FD31133CF9C6929927394 /* AICubeIconImage.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = AICubeIconImage.png; path = ApiAI/UIKit/Images/AICubeIconImage.png; sourceTree = "<group>"; };
 		556364750D0EE83F9AAB4D706E2EADAE /* AIDefaultConfiguration.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AIDefaultConfiguration.h; path = ApiAI/Classes/AIDefaultConfiguration.h; sourceTree = "<group>"; };
+		55C4429F92182E0E691A05643E43325C /* Pods_FesAcatlan_Chatbot.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_FesAcatlan_Chatbot.framework; path = "Pods-FesAcatlan-Chatbot.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		59E09B5C5076A15730A5EA844CC9EA5F /* AIStreamBuffer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AIStreamBuffer.h; path = ApiAI/Private/Streamer/AIStreamBuffer.h; sourceTree = "<group>"; };
-		5DA8040D365E8DE16DFB359CE390DA4F /* Pods-Chip- Hotel Booking Chatbot-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Chip- Hotel Booking Chatbot-frameworks.sh"; sourceTree = "<group>"; };
 		5F941A35861B5FA8496703AA58E94FBC /* AINullabilityDefines.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AINullabilityDefines.h; path = ApiAI/Classes/AINullabilityDefines.h; sourceTree = "<group>"; };
 		6322F097273CEA43CE6F24337952551B /* AIStreamBufferDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AIStreamBufferDelegate.h; path = ApiAI/Private/Streamer/AIStreamBufferDelegate.h; sourceTree = "<group>"; };
 		635D7FDE6A0824258FA0DAB5B264AD88 /* AIProgressView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AIProgressView.h; path = ApiAI/UIKit/Private/AIProgressView.h; sourceTree = "<group>"; };
@@ -202,6 +203,7 @@
 		655BF87CB045992C081EBACD95B24BD6 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/AudioToolbox.framework; sourceTree = DEVELOPER_DIR; };
 		689C75C6FAE139275B8D81EC97D97E71 /* AITextRequest.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AITextRequest.m; path = ApiAI/Classes/AITextRequest.m; sourceTree = "<group>"; };
 		6A6AF3833CB376EEB6E384FC07AC7C3C /* AdaptiveThresold.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AdaptiveThresold.m; path = ApiAI/VoiceRequest/Private/AlgorithmDetector/Algorithms/AdaptiveThresold/AdaptiveThresold.m; sourceTree = "<group>"; };
+		6AE3E88EB5352DE5AED84CB74C6E4C1E /* Pods-FesAcatlan-Chatbot-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-FesAcatlan-Chatbot-frameworks.sh"; sourceTree = "<group>"; };
 		6FEAD9C57970399195D240C3D08088A9 /* ApiAI.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ApiAI.xcconfig; sourceTree = "<group>"; };
 		75E1E4E72D7223C8C4391DB1473C4E9E /* AISessionIdentifierStorage.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AISessionIdentifierStorage.h; path = ApiAI/Private/AISessionIdentifierStorage.h; sourceTree = "<group>"; };
 		7873003AF4BA976F39ED9756A46E6C1F /* AIAlgorithmDetector.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AIAlgorithmDetector.m; path = ApiAI/VoiceRequest/Private/AlgorithmDetector/AIAlgorithmDetector.m; sourceTree = "<group>"; };
@@ -210,7 +212,6 @@
 		7EA214F58B5F3FBEDBFE8380D3B2B8A1 /* AIDataService_Private.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AIDataService_Private.h; path = ApiAI/Private/AIDataService_Private.h; sourceTree = "<group>"; };
 		7ED5B1E7CBC6B0759FD284BE221D083C /* AIResponseConstants.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AIResponseConstants.h; path = ApiAI/Classes/AIResponseConstants.h; sourceTree = "<group>"; };
 		7FBC936642C80124D86AE508DDE4BB96 /* AIResponseMetadata_Private.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AIResponseMetadata_Private.h; path = ApiAI/Response/Private/AIResponseMetadata_Private.h; sourceTree = "<group>"; };
-		83A765E2F3A58B9B1389CB3881AF04F6 /* Pods-Chip- Hotel Booking Chatbot-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Chip- Hotel Booking Chatbot-acknowledgements.markdown"; sourceTree = "<group>"; };
 		859B82CDBD9178EDC5FBDF978D516C3F /* AIQueryRequest.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AIQueryRequest.m; path = ApiAI/Classes/AIQueryRequest.m; sourceTree = "<group>"; };
 		8610BB4D33EB5036A704F2ED05C19B91 /* AIOriginalRequest.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AIOriginalRequest.m; path = ApiAI/Classes/AIOriginalRequest.m; sourceTree = "<group>"; };
 		87E5AC249E05DE13C8D1F3E85427A31B /* AIUserEntitiesRequest.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AIUserEntitiesRequest.h; path = ApiAI/UserEntities/Classes/AIUserEntitiesRequest.h; sourceTree = "<group>"; };
@@ -242,13 +243,13 @@
 		A3CC2520F6C59935AEEC927285E72AA7 /* beep.caf */ = {isa = PBXFileReference; includeInIndex = 1; name = beep.caf; path = ApiAI/VoiceRequest/Resources/beep.caf; sourceTree = "<group>"; };
 		A7DA02B323610B34D524FD1993F9BA05 /* AIDatePeriodFormatter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AIDatePeriodFormatter.h; path = ApiAI/Response/Private/Formatters/AIDatePeriodFormatter.h; sourceTree = "<group>"; };
 		A8BEA8533B0B6CF0770A075A9B2DB9DE /* AIMicrophoneControlImage@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "AIMicrophoneControlImage@3x.png"; path = "ApiAI/UIKit/Images/AIMicrophoneControlImage@3x.png"; sourceTree = "<group>"; };
+		A942DE3D8932AB8B3F85B1329857CB37 /* Pods-FesAcatlan-Chatbot.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-FesAcatlan-Chatbot.modulemap"; sourceTree = "<group>"; };
 		A98D1A617B42EF84B8588761AA850121 /* AIRequest+AIMappedResponse.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "AIRequest+AIMappedResponse.m"; path = "ApiAI/Response/Classes/AIRequest+AIMappedResponse.m"; sourceTree = "<group>"; };
+		AA28A06F9686F6C493BFC51712D5BABE /* Pods-FesAcatlan-Chatbot-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-FesAcatlan-Chatbot-acknowledgements.markdown"; sourceTree = "<group>"; };
 		AB735BEFCCE2D930B88AE8D1DE6895DA /* AIStreamBuffer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AIStreamBuffer.m; path = ApiAI/Private/Streamer/AIStreamBuffer.m; sourceTree = "<group>"; };
 		AC91C563B0ECCA2378F0DD375ED35A5F /* AIAudioUtils.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AIAudioUtils.h; path = ApiAI/VoiceRequest/Private/SoundRecorder/AIAudioUtils.h; sourceTree = "<group>"; };
 		AD0DEFE6E3BBBAACC4019DC68BAF4AA3 /* AIUserEntity.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AIUserEntity.h; path = ApiAI/UserEntities/Classes/AIUserEntity.h; sourceTree = "<group>"; };
-		B0BE1B2C51D9C71C0DA184A211380CAF /* Pods-Chip- Hotel Booking Chatbot-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Chip- Hotel Booking Chatbot-acknowledgements.plist"; sourceTree = "<group>"; };
 		B208842D68B05746CBCC0F0571EE4278 /* AIRequestEntity.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AIRequestEntity.h; path = ApiAI/Classes/AIRequestEntity.h; sourceTree = "<group>"; };
-		B22AA7FC1CB44A7D9CBAF815F4DEA3F3 /* Pods-Chip- Hotel Booking Chatbot.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Chip- Hotel Booking Chatbot.release.xcconfig"; sourceTree = "<group>"; };
 		B5F53224CA591057CB53CBC0B46A126A /* AIRequestContext.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AIRequestContext.m; path = ApiAI/Classes/AIRequestContext.m; sourceTree = "<group>"; };
 		B7108FADC70A849E2CE9E988497FB83F /* AIVoiceFileRequest.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AIVoiceFileRequest.h; path = ApiAI/VoiceFileRequest/Classes/AIVoiceFileRequest.h; sourceTree = "<group>"; };
 		BBB722DEC1FE28E6B54E4BBE3AB946B3 /* AIAudioFileConvertOperationTypes.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AIAudioFileConvertOperationTypes.h; path = ApiAI/AudioFileConverter/Private/AIAudioFileConvertOperationTypes.h; sourceTree = "<group>"; };
@@ -257,17 +258,13 @@
 		BFF40BC1453627E1196B670A6D200AC8 /* AIMeterTable.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AIMeterTable.h; path = ApiAI/VoiceRequest/Private/SoundRecorder/AIMeterTable.h; sourceTree = "<group>"; };
 		C2636D5580A27B0DD8F23A2251E0095D /* AIRecordDetector.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AIRecordDetector.m; path = ApiAI/VoiceRequest/Private/RecordDetector/AIRecordDetector.m; sourceTree = "<group>"; };
 		C30609D733ED90A8D23242054166DD62 /* AIResponseStatus.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AIResponseStatus.m; path = ApiAI/Response/Classes/AIResponseStatus.m; sourceTree = "<group>"; };
-		C72E140A507E78FF0053A297A21AF7F4 /* Pods-Chip- Hotel Booking Chatbot-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Chip- Hotel Booking Chatbot-Info.plist"; sourceTree = "<group>"; };
 		C8BB55B3A59822F5754BE2FD57048126 /* AISoundRecorder.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AISoundRecorder.m; path = ApiAI/VoiceRequest/Private/SoundRecorder/AISoundRecorder.m; sourceTree = "<group>"; };
 		CB12677C2FE4C0975DBEA294917092FD /* ApiAI-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ApiAI-Info.plist"; sourceTree = "<group>"; };
 		CB781F7E22A1F486994D3E68B082029C /* AIResponseResult_Private.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AIResponseResult_Private.h; path = ApiAI/Response/Private/AIResponseResult_Private.h; sourceTree = "<group>"; };
-		CD5DCFB4C8136913B2DA110FFFAC6DA4 /* Pods-Chip- Hotel Booking Chatbot-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Chip- Hotel Booking Chatbot-umbrella.h"; sourceTree = "<group>"; };
 		D00E58FD75104C846F849DB64817B94F /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
-		D15213C0D1E57AC8DD825CC5C08EE00D /* Pods-Chip- Hotel Booking Chatbot.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Chip- Hotel Booking Chatbot.modulemap"; sourceTree = "<group>"; };
 		D1854004057DB6AFC739D5455A697DFB /* ApiAI.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ApiAI.h; path = ApiAI/Classes/ApiAI.h; sourceTree = "<group>"; };
 		D45B12CB89303F888B0A9429A68DC1C2 /* AIEventRequest.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AIEventRequest.h; path = ApiAI/EventRequest/AIEventRequest.h; sourceTree = "<group>"; };
 		D82D641B331575185231602826C2F9E0 /* AIOriginalRequest_Private.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AIOriginalRequest_Private.h; path = ApiAI/Private/AIOriginalRequest_Private.h; sourceTree = "<group>"; };
-		D930DB6FFF4FBF46900DA24FFBCF862F /* Pods-Chip- Hotel Booking Chatbot-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Chip- Hotel Booking Chatbot-dummy.m"; sourceTree = "<group>"; };
 		DA00FBE44105C008AAF93770CCD49319 /* AIDataProcessInfo.cpp */ = {isa = PBXFileReference; includeInIndex = 1; name = AIDataProcessInfo.cpp; path = ApiAI/AudioFileConverter/Private/AIDataProcessInfo.cpp; sourceTree = "<group>"; };
 		DA2746EA99E73A358F322633A0E99F95 /* ApiAI.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = ApiAI.framework; path = ApiAI.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		DB14A83CA8CA83121D0AEF9F514B58A2 /* AISoundRecorderConstants.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AISoundRecorderConstants.m; path = ApiAI/VoiceRequest/Private/SoundRecorder/AISoundRecorderConstants.m; sourceTree = "<group>"; };
@@ -284,13 +281,16 @@
 		E4F6B00F2722141C7E9E9C7C3C8538E3 /* ApiAI.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ApiAI.m; path = ApiAI/Classes/ApiAI.m; sourceTree = "<group>"; };
 		E53C74CD2AC4FB7B89197B5083DFA3C5 /* AIResponseParameter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AIResponseParameter.h; path = ApiAI/Response/Classes/AIResponseParameter.h; sourceTree = "<group>"; };
 		E9048096346CCDCFE765254E55EB44CA /* AIRequestEntity_Private.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AIRequestEntity_Private.h; path = ApiAI/Private/AIRequestEntity_Private.h; sourceTree = "<group>"; };
+		E96640820E6F6E370C940D3CC6CA976D /* Pods-FesAcatlan-Chatbot.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FesAcatlan-Chatbot.release.xcconfig"; sourceTree = "<group>"; };
 		EAE1A1EE08238A0C2811395659D1ED10 /* AIAlgorithmDetectorTypes.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AIAlgorithmDetectorTypes.h; path = ApiAI/VoiceRequest/Private/AlgorithmDetector/AIAlgorithmDetectorTypes.h; sourceTree = "<group>"; };
 		EBD62452A6EC743B4E9FFE5A80984500 /* AIQueryRequest+Private.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "AIQueryRequest+Private.h"; path = "ApiAI/Private/AIQueryRequest+Private.h"; sourceTree = "<group>"; };
 		EBFC335578415A80F2278EA1F5C0DE53 /* AIResponseMetadata.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AIResponseMetadata.m; path = ApiAI/Response/Classes/AIResponseMetadata.m; sourceTree = "<group>"; };
 		EC40B634A3154F8CB53531C8EDAB3AFA /* AIMeterTable.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AIMeterTable.m; path = ApiAI/VoiceRequest/Private/SoundRecorder/AIMeterTable.m; sourceTree = "<group>"; };
 		EEA3684E763EF36084E8EB3127F64566 /* AIDataProcessInfo.hpp */ = {isa = PBXFileReference; includeInIndex = 1; name = AIDataProcessInfo.hpp; path = ApiAI/AudioFileConverter/Private/AIDataProcessInfo.hpp; sourceTree = "<group>"; };
+		F1E7DB1394EA688DD96AFF87B907867B /* Pods-FesAcatlan-Chatbot-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FesAcatlan-Chatbot-Info.plist"; sourceTree = "<group>"; };
 		F55A48BC336E98A11E9C66E552422A95 /* ApiAI_ApiAI_Private.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ApiAI_ApiAI_Private.h; path = ApiAI/Private/ApiAI_ApiAI_Private.h; sourceTree = "<group>"; };
 		F83827B46306C6C201BC21BACA2F2260 /* AIResponseParameter_Private.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AIResponseParameter_Private.h; path = ApiAI/Response/Private/AIResponseParameter_Private.h; sourceTree = "<group>"; };
+		FEEB73BCAEDFAF7EF81847171437AE94 /* Pods-FesAcatlan-Chatbot.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FesAcatlan-Chatbot.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -305,11 +305,11 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		41C6DC8E180593C663D29104E466A3B4 /* Frameworks */ = {
+		57D041C6999217F8BB314386B5071AA2 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				354A9BB8EE0B667F717BDB9DA7B0BDB6 /* Foundation.framework in Frameworks */,
+				227E30F113FD8986B05D3B0A44F14C32 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -352,6 +352,32 @@
 				A3CC2520F6C59935AEEC927285E72AA7 /* beep.caf */,
 			);
 			name = Resources;
+			sourceTree = "<group>";
+		};
+		16B4EACE828F34344FD7BDC208B67B3B /* Pods-FesAcatlan-Chatbot */ = {
+			isa = PBXGroup;
+			children = (
+				A942DE3D8932AB8B3F85B1329857CB37 /* Pods-FesAcatlan-Chatbot.modulemap */,
+				AA28A06F9686F6C493BFC51712D5BABE /* Pods-FesAcatlan-Chatbot-acknowledgements.markdown */,
+				363ADECE9BF53F4B12B04156885CA4F8 /* Pods-FesAcatlan-Chatbot-acknowledgements.plist */,
+				25AB7B6727455522849A6278205B4BF6 /* Pods-FesAcatlan-Chatbot-dummy.m */,
+				6AE3E88EB5352DE5AED84CB74C6E4C1E /* Pods-FesAcatlan-Chatbot-frameworks.sh */,
+				F1E7DB1394EA688DD96AFF87B907867B /* Pods-FesAcatlan-Chatbot-Info.plist */,
+				1CF3E81B459DB2E793EB29F961102EF8 /* Pods-FesAcatlan-Chatbot-umbrella.h */,
+				FEEB73BCAEDFAF7EF81847171437AE94 /* Pods-FesAcatlan-Chatbot.debug.xcconfig */,
+				E96640820E6F6E370C940D3CC6CA976D /* Pods-FesAcatlan-Chatbot.release.xcconfig */,
+			);
+			name = "Pods-FesAcatlan-Chatbot";
+			path = "Target Support Files/Pods-FesAcatlan-Chatbot";
+			sourceTree = "<group>";
+		};
+		21BF7B72ED97ADCC1AE975BE4E01B096 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DA2746EA99E73A358F322633A0E99F95 /* ApiAI.framework */,
+				55C4429F92182E0E691A05643E43325C /* Pods_FesAcatlan_Chatbot.framework */,
+			);
+			name = Products;
 			sourceTree = "<group>";
 		};
 		37827AB3F702A81A6A04C1C1F66B6814 /* Support Files */ = {
@@ -458,6 +484,14 @@
 			name = ResponseMapping;
 			sourceTree = "<group>";
 		};
+		B16C342D195B9A413FBD48421B2A09E7 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				16B4EACE828F34344FD7BDC208B67B3B /* Pods-FesAcatlan-Chatbot */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
 		B950BEB72730FEE0259ABC68F75C4B88 /* UIKit */ = {
 			isa = PBXGroup;
 			children = (
@@ -529,26 +563,9 @@
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
 				BA4F31F07263C99FC76E66D632A59F09 /* Frameworks */,
 				8708DA9B2D298757E6D18B3750B7EC5B /* Pods */,
-				E4DAEF58A778DEFB6A848E7D78E451F6 /* Products */,
-				F92D4677ACA4F7FE1332C6CDC58C4735 /* Targets Support Files */,
+				21BF7B72ED97ADCC1AE975BE4E01B096 /* Products */,
+				B16C342D195B9A413FBD48421B2A09E7 /* Targets Support Files */,
 			);
-			sourceTree = "<group>";
-		};
-		D3E05F87E3E1F74C7BBD8FE238406E22 /* Pods-Chip- Hotel Booking Chatbot */ = {
-			isa = PBXGroup;
-			children = (
-				D15213C0D1E57AC8DD825CC5C08EE00D /* Pods-Chip- Hotel Booking Chatbot.modulemap */,
-				83A765E2F3A58B9B1389CB3881AF04F6 /* Pods-Chip- Hotel Booking Chatbot-acknowledgements.markdown */,
-				B0BE1B2C51D9C71C0DA184A211380CAF /* Pods-Chip- Hotel Booking Chatbot-acknowledgements.plist */,
-				D930DB6FFF4FBF46900DA24FFBCF862F /* Pods-Chip- Hotel Booking Chatbot-dummy.m */,
-				5DA8040D365E8DE16DFB359CE390DA4F /* Pods-Chip- Hotel Booking Chatbot-frameworks.sh */,
-				C72E140A507E78FF0053A297A21AF7F4 /* Pods-Chip- Hotel Booking Chatbot-Info.plist */,
-				CD5DCFB4C8136913B2DA110FFFAC6DA4 /* Pods-Chip- Hotel Booking Chatbot-umbrella.h */,
-				420D80C18AE761C6603776142E630375 /* Pods-Chip- Hotel Booking Chatbot.debug.xcconfig */,
-				B22AA7FC1CB44A7D9CBAF815F4DEA3F3 /* Pods-Chip- Hotel Booking Chatbot.release.xcconfig */,
-			);
-			name = "Pods-Chip- Hotel Booking Chatbot";
-			path = "Target Support Files/Pods-Chip- Hotel Booking Chatbot";
 			sourceTree = "<group>";
 		};
 		DD243FC0BA9579CC6423112F86BAB201 /* Core */ = {
@@ -594,31 +611,14 @@
 			name = Core;
 			sourceTree = "<group>";
 		};
-		E4DAEF58A778DEFB6A848E7D78E451F6 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				DA2746EA99E73A358F322633A0E99F95 /* ApiAI.framework */,
-				406CFF77AE2F60B2F969569612CE27DB /* Pods_Chip__Hotel_Booking_Chatbot.framework */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		F92D4677ACA4F7FE1332C6CDC58C4735 /* Targets Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				D3E05F87E3E1F74C7BBD8FE238406E22 /* Pods-Chip- Hotel Booking Chatbot */,
-			);
-			name = "Targets Support Files";
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		9E49766B1C24E048497124CA7C1C68A5 /* Headers */ = {
+		94EDB76E87870A29756547BB0B418934 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				18E164D8CDFD970E34E788BF3FECA326 /* Pods-Chip- Hotel Booking Chatbot-umbrella.h in Headers */,
+				D2EF28BCFB4A2E9B1D11B3ED724F0180 /* Pods-FesAcatlan-Chatbot-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -699,23 +699,23 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		3AE7CFFB1AB11F5B03EFC69327A85F85 /* Pods-Chip- Hotel Booking Chatbot */ = {
+		9C860731E22A2EFFD3A15C9129A05DEB /* Pods-FesAcatlan-Chatbot */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = E81C76DE4BD871D0A73AAB7EC7B69B52 /* Build configuration list for PBXNativeTarget "Pods-Chip- Hotel Booking Chatbot" */;
+			buildConfigurationList = FC230D47442F1471B460CC60FD9FB3B2 /* Build configuration list for PBXNativeTarget "Pods-FesAcatlan-Chatbot" */;
 			buildPhases = (
-				9E49766B1C24E048497124CA7C1C68A5 /* Headers */,
-				90616970F6E4711896A99B750C92B16E /* Sources */,
-				41C6DC8E180593C663D29104E466A3B4 /* Frameworks */,
-				B9F810DC73A9407E19F724B7ED35AA1F /* Resources */,
+				94EDB76E87870A29756547BB0B418934 /* Headers */,
+				22F1B678E4F4C053EC82C2D5874B9431 /* Sources */,
+				57D041C6999217F8BB314386B5071AA2 /* Frameworks */,
+				D2EF78D9FB5A0DEC8919825ECC4FA37D /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				EDFC37B7BEB4576FD1A788561D10927E /* PBXTargetDependency */,
+				5B822211792CFCB7BA0798FB06BF45A2 /* PBXTargetDependency */,
 			);
-			name = "Pods-Chip- Hotel Booking Chatbot";
-			productName = "Pods-Chip- Hotel Booking Chatbot";
-			productReference = 406CFF77AE2F60B2F969569612CE27DB /* Pods_Chip__Hotel_Booking_Chatbot.framework */;
+			name = "Pods-FesAcatlan-Chatbot";
+			productName = "Pods-FesAcatlan-Chatbot";
+			productReference = 55C4429F92182E0E691A05643E43325C /* Pods_FesAcatlan_Chatbot.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		F92437B0569686AF7A88AA155EA78EA4 /* ApiAI */ = {
@@ -751,15 +751,14 @@
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
-				Base,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
-			productRefGroup = E4DAEF58A778DEFB6A848E7D78E451F6 /* Products */;
+			productRefGroup = 21BF7B72ED97ADCC1AE975BE4E01B096 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
 				F92437B0569686AF7A88AA155EA78EA4 /* ApiAI */,
-				3AE7CFFB1AB11F5B03EFC69327A85F85 /* Pods-Chip- Hotel Booking Chatbot */,
+				9C860731E22A2EFFD3A15C9129A05DEB /* Pods-FesAcatlan-Chatbot */,
 			);
 		};
 /* End PBXProject section */
@@ -780,7 +779,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		B9F810DC73A9407E19F724B7ED35AA1F /* Resources */ = {
+		D2EF78D9FB5A0DEC8919825ECC4FA37D /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -844,26 +843,61 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		90616970F6E4711896A99B750C92B16E /* Sources */ = {
+		22F1B678E4F4C053EC82C2D5874B9431 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CDD162B4E1222B161DC575F4F1E76C64 /* Pods-Chip- Hotel Booking Chatbot-dummy.m in Sources */,
+				7DCC097A85E065E8D943D9E2F960FD2A /* Pods-FesAcatlan-Chatbot-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		EDFC37B7BEB4576FD1A788561D10927E /* PBXTargetDependency */ = {
+		5B822211792CFCB7BA0798FB06BF45A2 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = ApiAI;
 			target = F92437B0569686AF7A88AA155EA78EA4 /* ApiAI */;
-			targetProxy = 755C8E603C1AFB72E5D6CB7AC0C8CA00 /* PBXContainerItemProxy */;
+			targetProxy = 2BD98A67733499D3B68EAC789DB36644 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
+		06EB8D50F7119864175FA95ACAE40123 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FEEB73BCAEDFAF7EF81847171437AE94 /* Pods-FesAcatlan-Chatbot.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-FesAcatlan-Chatbot/Pods-FesAcatlan-Chatbot-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-FesAcatlan-Chatbot/Pods-FesAcatlan-Chatbot.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
 		257497152829C177993B5EC99C1D227A /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -955,6 +989,42 @@
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
+		};
+		D75F69705C3AA7A03A58EC575249F408 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E96640820E6F6E370C940D3CC6CA976D /* Pods-FesAcatlan-Chatbot.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-FesAcatlan-Chatbot/Pods-FesAcatlan-Chatbot-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-FesAcatlan-Chatbot/Pods-FesAcatlan-Chatbot.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
 		};
 		DD8F832993327D1DD8046C3CBCBD97CD /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -1053,77 +1123,6 @@
 			};
 			name = Release;
 		};
-		EC6974EBB0B84703D6FF1A83CC71EA2A /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 420D80C18AE761C6603776142E630375 /* Pods-Chip- Hotel Booking Chatbot.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-Chip- Hotel Booking Chatbot/Pods-Chip- Hotel Booking Chatbot-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-Chip- Hotel Booking Chatbot/Pods-Chip- Hotel Booking Chatbot.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		FBD58C3DE774F81B9FFADBFBA6F23D54 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = B22AA7FC1CB44A7D9CBAF815F4DEA3F3 /* Pods-Chip- Hotel Booking Chatbot.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-Chip- Hotel Booking Chatbot/Pods-Chip- Hotel Booking Chatbot-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-Chip- Hotel Booking Chatbot/Pods-Chip- Hotel Booking Chatbot.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -1145,11 +1144,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		E81C76DE4BD871D0A73AAB7EC7B69B52 /* Build configuration list for PBXNativeTarget "Pods-Chip- Hotel Booking Chatbot" */ = {
+		FC230D47442F1471B460CC60FD9FB3B2 /* Build configuration list for PBXNativeTarget "Pods-FesAcatlan-Chatbot" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				EC6974EBB0B84703D6FF1A83CC71EA2A /* Debug */,
-				FBD58C3DE774F81B9FFADBFBA6F23D54 /* Release */,
+				06EB8D50F7119864175FA95ACAE40123 /* Debug */,
+				D75F69705C3AA7A03A58EC575249F408 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
