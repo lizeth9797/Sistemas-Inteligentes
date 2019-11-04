@@ -189,3 +189,7 @@ impresion(X,I):-espacios(I),write(X),nl.
 impresion([],_).
 impresionx([Cabeza|Resto],Identacion):-impresion(Cabeza,Identacion),impresionx(Resto,Identacion).
 %?- impresion([1,2,[a,b],3],2).
+%?-trace.
+
+
+%REGLAS DE INFERENCIA
