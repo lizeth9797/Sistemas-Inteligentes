@@ -179,3 +179,13 @@ despedida:-write('adios').
 espacios(0):-!.
 espacios(N):-write('_'),N1 is N-1, espacios(N1).
 %?-saludo,espacios(4),despedida.
+
+
+
+espacios(O):-!.
+espacios(N):-write('_'),N1 is N-1, espacios(N1).
+impresion([Cabeza|Resto],Identacion):-!,I2 is Identacion+3, impresion(Cabeza,I2),impresionx(Resto,I2),nl.
+impresion(X,I):-espacios(I),write(X),nl.
+impresion([],_).
+impresionx([Cabeza|Resto],Identacion):-impresion(Cabeza,Identacion),impresionx(Resto,Identacion).
+%?- impresion([1,2,[a,b],3],2).
