@@ -14,6 +14,7 @@ class ViewController: UIViewController {
 
     @IBOutlet weak var messageField: UITextField!
     @IBOutlet weak var chipResponse: UILabel!
+    @IBOutlet weak var imagen: UIImageView!
     
     @IBAction func sendMessage(_ sender: Any) {
         let request = ApiAI.shared().textRequest()
@@ -28,6 +29,11 @@ class ViewController: UIViewController {
             let response = response as! AIResponse
             if let textResponse = response.result.fulfillment.speech {
                 self.speechAndText(text: textResponse)
+                if textResponse.hasSuffix("karina"){
+                    self.imagen.image=UIImage(named: "rectangulo")
+                } else if textResponse.hasSuffix("rulo"){
+                    self.imagen.image=UIImage(named: "triangulo")
+                }
             }
         }, failure: { (request, error) in
             print(error!)
