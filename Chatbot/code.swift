@@ -35,8 +35,8 @@ class ViewController: UIViewController {
                     self.imagen.image=UIImage(named: "auditorio")
                 } else if textResponse.hasSuffix("Está a un costado del edificio de extensión cultural, el cual está frente a los edificios de idiomas."){
                     self.imagen.image=UIImage(named: "barros")
-                }else if textResponse.hasSuffix("rulo"){
-                    self.imagen.image=UIImage(named: "En cada edificio de la facultad hay baños, dirígete al más cercano")
+                }else if textResponse.hasSuffix("En cada edificio de la facultad hay baños, dirígete al más cercano"){
+                    self.imagen.image=UIImage(named: "baños")
                 }else if textResponse.hasSuffix("La biblioteca se encuentra a un costado de las canchas de fútbol, dirígete hacia las canchas ubicadas cerca de la entrada principal y encontrarás la biblioteca."){
                     self.imagen.image=UIImage(named: "biblioteca")
                 }else if textResponse.hasSuffix("La cafetería se encuentra a un costado de las cachas, puedes llegar por la entrada principal o por la entrada de idiomas. ¿Gustas saber el menú de hoy?"){
