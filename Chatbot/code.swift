@@ -54,13 +54,13 @@ class ViewController: UIViewController {
                 //IMAGENES DE "NO ENTIENDO"
 
                 else if textResponse.hasSuffix("Ups, no he entendido a que te refieres."){
-                    self.imagen.image=UIImage(named: "goyo1")
+                    self.imagen.image=UIImage(named: "pregunta")
                 }else if textResponse.hasSuffix("¿Podrías repetirlo, por favor?"){
-                    self.imagen.image=UIImage(named: "goyo1")
+                    self.imagen.image=UIImage(named: "pregunta")
                 }else if textResponse.hasSuffix("¿Disculpa?"){
-                    self.imagen.image=UIImage(named: "goyo1")
+                    self.imagen.image=UIImage(named: "pregunta")
                 }else if textResponse.hasSuffix("¿Cómo?"){
-                    self.imagen.image=UIImage(named: "goyo1")
+                    self.imagen.image=UIImage(named: "pregunta")
                 }
                 
                 
