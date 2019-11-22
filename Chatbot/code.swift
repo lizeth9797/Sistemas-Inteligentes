@@ -49,6 +49,24 @@ class ViewController: UIViewController {
                     self.imagen.image=UIImage(named: "cedam")
                 }else if textResponse.hasSuffix("Puedes llegar por la entrada de Idiomas, acercarte al Teatro Barros Sierra y encontrarás idiomas frente al centro cultural."){
                     self.imagen.image=UIImage(named: "idiomas")
+                }else if textResponse.hasSuffix("Está al lado del Auditorio Miguel de la Torre"){
+                    self.imagen.image=UIImage(named: "caballito")
+                }else if textResponse.hasSuffix("Toda el área deportiva se encuentra detrás del edificio 15, cerca de la biblioteca y al lado de la cafetería"){
+                    self.imagen.image=UIImage(named: "canchas")
+                }else if textResponse.hasSuffix("Esta cerca del edificio de Posgrados, frente al estacionamiento de profesores"){
+                    self.imagen.image=UIImage(named: "enfermeria")
+                }else if textResponse.hasSuffix("A un costado de las canchas de fútbol americano"){
+                    self.imagen.image=UIImage(named: "entradaP")
+                }else if textResponse.hasSuffix("Está ubicado cerca de la entrada de idiomas, al lado de la cafetería ."){
+                    self.imagen.image=UIImage(named: "gym")
+                }else if textResponse.hasSuffix("El kuais se encuentra entre el edificio A2 y A4, dirígete a la explanada del área de matemáticas."){
+                    self.imagen.image=UIImage(named: "kuais")
+                }else if textResponse.hasSuffix("Se encuentra en la entrada principal"){
+                    self.imagen.image=UIImage(named: "micros")
+                }else if textResponse.hasSuffix("Está ubicada frente al edificio 7"){
+                    self.imagen.image=UIImage(named: "piedra")
+                }else if textResponse.hasSuffix("Se ubica en el estacionamiento, a un costado de CEDETEC"){
+                    self.imagen.image=UIImage(named: "uim")
                 }
                 
                 //IMAGENES DE "NO ENTIENDO"
@@ -63,6 +81,27 @@ class ViewController: UIViewController {
                     self.imagen.image=UIImage(named: "pregunta")
                 }
                 
+                 //IMAGENES DE SALUDO
+                else if textResponse.hasSuffix("¡Hola! ¿en qué puedo ayudarte?"){
+                    self.imagen.image=UIImage(named: "goyo2")
+                }else if textResponse.hasSuffix("¡Hey! ¿en qué puedo ayudarte?"){
+                    self.imagen.image=UIImage(named: "goyo2")
+                }else if textResponse.hasSuffix("¡Buenos días! ¿en qué puedo ayudarte?"){
+                    self.imagen.image=UIImage(named: "goyo2")
+                }else if textResponse.hasSuffix("¡Qué tal! ¿en qué puedo ayudarte?"){
+                    self.imagen.image=UIImage(named: "goyo2")
+                }
+                
+                 //IMAGENES DE ADIOS
+                else if textResponse.hasSuffix("Hasta pronto!"){
+                    self.imagen.image=UIImage(named: "goyo1")
+                }else if textResponse.hasSuffix("Hasta luego!"){
+                    self.imagen.image=UIImage(named: "goyo1")
+                }else if textResponse.hasSuffix("Bye!"){
+                    self.imagen.image=UIImage(named: "goyo1")
+                }else if textResponse.hasSuffix("Adiós"){
+                    self.imagen.image=UIImage(named: "goyo1")
+                }
                 
                 
                 
